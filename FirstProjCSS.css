@@ -1,0 +1,70 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    header h1{
+        font-weight: 400;
+       
+       }
+       header{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 3rem;
+       }
+      
+       nav{
+        width: 20rem;
+        position:relative;
+        top:10px;
+        right:3rem;
+       }
+       ul{
+            display:flex;
+            justify-content: space-between;
+       }
+       li{
+        list-style: none;
+        font-size: 1.5rem;
+       }
+       .showcase_img{
+        width:85vw;
+        margin:2rem;
+       }
+   
+      article{
+        display: flex;
+        justify-content: center;
+         margin: 1rem; 
+         /* font-size: 1.5rem;  
+        font-weight: 400; */ 
+        
+        
+      }
+      .content {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+        margin-right: 2rem;
+
+        
+      }
+      h2{
+        font-weight: 600;
+      }
+      footer{
+        
+        background-color: black;
+        color: aliceblue;
+        text-align: center;      /*text centre mein aagya footer ka*/
+        padding: 2rem;           /*box ka size increase hogya*/
+        font-size: 1.8rem;
+
+        
+      }
+a{
+  text-decoration: none; /*to remove underline*/
+  color: black;
+}
+a:hover{
+  color:orange;   
+  font-size: 2rem;      /*to add hover effect color changes on moving to text*/
+}
